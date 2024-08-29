@@ -4,7 +4,7 @@
 
 int main(){
 
-    char* lib_name = "/Users/achyutt/Plugin/Engine/src/libPlugin.dylib";
+    char* lib_name = "/Users/achyutt/Plugin/bin/Engine/src/libPlugin.dylib";
     void* lib_handle = dlopen(lib_name, RTLD_NOW);
     
     if(lib_handle){
